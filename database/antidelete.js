@@ -10,7 +10,7 @@ const AntiDeleteDB = database.define('antidelete', {
     },
     notification: {
         type: DataTypes.STRING,
-        defaultValue: '👿 *Keith antiDelete* 👿',
+        defaultValue: '👑𝐌𝐀𝐅𝐈𝐀 AntiDelete By 𝐀𝐫𝐬𝐥𝐚𝐧👑',
         allowNull: false
     },
     includeGroupInfo: {
@@ -53,7 +53,7 @@ async function getAntiDeleteSettings() {
         console.error('Error getting anti-delete settings:', error);
         return { 
             status: true, 
-            notification: '👿 *Keith antiDelete* 👿',
+            notification: '👑𝐌𝐀𝐅𝐈𝐀 AntiDelete By 𝐀𝐫𝐬𝐥𝐚𝐧👑',
             includeGroupInfo: true,
             includeMedia: true
         };
