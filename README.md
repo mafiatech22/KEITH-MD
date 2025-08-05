@@ -1,9 +1,9 @@
-# 𝗞𝗘𝗜𝗧𝗛-𝗠𝗗
+# 𝐌𝐀𝐅𝐈𝐀-𝐌𝐃
 
-<h1 align="center">My code works, but I have no idea why. Should I touch it?😏</h1>
+<h1 align="center">𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 Whatsapp Bot Created By 𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲 Powered By 𝐌𝐀𝐅𝐈𝐀-𝐓𝐞𝐜𝐡</h1>
 
 <div align="center">
-  <img src="https://i.imgur.com/XlQIFIF.jpeg" width="400" style="border-radius:10px">
+  <img src="https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg" width="400" style="border-radius:10px">
 </div>
 
 ##  Quick Access
@@ -16,7 +16,7 @@
       </a>
     </td>
     <td align="center" style="border:none">
-      <a href="https://www.youtube.com/@keithkeizzah">
+      <a href="https://www.youtube.com/@MAFIA-TECH_22">
         <img src="https://img.shields.io/badge/Video_Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" width="200">
       </a>
     </td>
@@ -28,7 +28,7 @@
       </a>
     </td>
     <td align="center" style="border:none">
-      <a href="https://github.com/keithkeizzah/KEITH-MD/archive/refs/heads/main.zip">
+      <a href="https://github.com/MARC701/KEITH-MD/archive/refs/heads/main.zip">
         <img src="https://img.shields.io/badge/Download_ZIP-0078D4?style=for-the-badge&logo=windows&logoColor=white" width="200">
       </a>
     </td>
@@ -96,7 +96,7 @@
 ##  Termux Installation
 
 ```bash
-git clone https://github.com/keithkeizzah/KEITH-MD.git
+git clone https://github.com/MARC701/KEITH-MD.git
 cd KEITH-MD
 npm install
 npm start
