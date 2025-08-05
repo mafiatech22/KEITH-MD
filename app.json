@@ -1,5 +1,5 @@
 {
-  "name": "KEITH-MD",
+  "name": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃",
   "description": "This is a simple whatsapp bot built with nodejs to make your WhatsApp enjoyable",
   "keywords": [
     "bot",
@@ -14,10 +14,10 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/Keithkeizzah/KEITH-MD#readme",
-  "repository": "https://github.com/Keithkeizzah/KEITH-MD.git",
-  "logo": "https://i.imgur.com/dAtHp2k.jpeg",
-  "success_url": "/",
+  "website": "https://github.com/MARC701/KEITH-MD#readme",
+  "repository": "https://github.com/MARC701/KEITH-MD.git",
+  "logo": "https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg",
+  "success_url": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
   "env": {
     "PREFIX": {
       "description": "choose your prefix for keith. To prevent errors and confusion you must set a prefix",
@@ -25,32 +25,37 @@
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254748387615, 254796299159",
-      "required": false
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 923111977378, 923309341706",
+      "required": true
     },
     "OWNER_NAME": {
       "description": "add your owner name for the bot",
-      "value": "",
+      "value": "𝘼𝙧𝙨𝙡𝙖𝙣 𝘾𝙝𝙖𝙪𝙙𝙖𝙧𝙮",
       "required": true
     },
     "BOTNAME": {
       "description": "Enter name for your bot",
-      "value": "",
+      "value": "𝐌𝐀𝐅𝐈𝐀-𝐌𝐃",
       "required": true
     },
     "SESSION": {
-      "description": "Paste the session id that you received in whatsapp after linking the bot. It's used for authentication",
+      "description": "Paste the session id that you received in whatsapp after linking the bot. It\"s used for authentication",
       "required": true
     },
     "URL": {
       "description": "Replace with your image url",
-      "value": "https://files.catbox.moe/mikdi0.jpg",
+      "value": "https://ik.imagekit.io/Arslan22/IMG-20250725-WA0121.jpg",
       "required": true
     },
     "MODE": {
       "description": "Type private if you don't want other people to use the bot or public if you want everyone to access",
-      "value": "public",
-      "required": false
+      "value": "private",
+      "required": true
+    },
+    "GURL": {
+      "description": "WhatsApp Channel Invite Link",
+      "value": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
+      "required": true
     }
   },
   "buildpacks": [
