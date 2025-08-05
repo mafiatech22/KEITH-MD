@@ -9,7 +9,7 @@ const AutoBioDB = database.define('autobio', {
     },
     message: {
         type: DataTypes.STRING,
-        defaultValue: 'Keith WhatsApp Bot is active',
+        defaultValue: '𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 WhatsApp Bot is active',
         allowNull: false
     },
     interval: {
@@ -43,7 +43,7 @@ async function getAutoBioSettings() {
         return settings;
     } catch (error) {
         console.error('Error getting auto-bio settings:', error);
-        return { status: false, message: 'Keith WhatsApp Bot is active', interval: 10 };
+        return { status: false, message: '𝐌𝐀𝐅𝐈𝐀-𝐌𝐃 WhatsApp Bot is active', interval: 10 };
     }
 }
 
